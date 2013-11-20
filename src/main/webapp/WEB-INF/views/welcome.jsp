@@ -29,9 +29,6 @@
 		<div style="float:left;">
 			<img src="<c:url value="/images/Scrum-it-Logo-klein.png" />" alt="<fmt:message key="scrum.title"/>" width="55"/>
 		</div>
-		<div style="float:right;">
-			<img src="<c:url value="/images/BOSW11in_B.png" />" alt="Logo: Best of Swiss Web 2011 Bronze Award" width="50">
-		</div>
 	</div>
 
 	<div class="content-welcome" data-role="content" data-theme="d"> 
@@ -79,30 +76,6 @@
 						live demo and learn the innovative art of user interface, enabled with jQuery Mobile.
 					</div>
 				</p>
-				<div style="clear:both;">&nbsp;</div>
-				<h4>Get Scrum-it for free</h4>
-				<p>
-					<div style="float:left;width:25%;">
-						<a href="http://sourceforge.net/projects/scrum-it/" data-role="button" data-theme="d" target="blank">
-						<img src="<c:url value="/images/download.png" />" width="35"/>
-						<br/><span align="center">get it</span></a>
-					</div>
-					<div style="float:right;width:75%">
-						SourceForge is a centralized web based project repository. You can download a free version of Scrum-it without any limitations. Installation incstructions, 
-						an issue tracker and a lot of more information can be found there. If you want new features, feel free to contact us.
-					</div> 
-				</p>
-				<div style="clear:both;">&nbsp;</div>
-				<h4>Bronze award "Best of Swiss Web 2011"</h4>
-				<p>
-					<div style="float:right;width:20%;text-align:right;">
-						<img src="<c:url value="/images/BOSW11in_B_small.png" />" width="100" />
-					</div>
-					<div style="float:left;width:80%">
-						Best of Swiss Web is yearly awarded price for leading technologies in the web sector. Scrum-it got the bronze award in the category 
-						Innovation for the modern and innovative way to handle agile project management with Scrum.
-					</div> 
-				</p>
 			</div>
 		</div>
 
@@ -114,16 +87,12 @@
 				<li><a href="http://www.youtube.com/watch?v=zfcZF1EeY7Q">User video</a></li>
 				<li><a href="http://www.youtube.com/watch?v=Hp9wMQkmYDw">Scrum-it Story - Movie</a></li>
 				<li><a href="http://www.bsgroupti.ch/scrum-it.html">Scrum-it webpage</a></li>
-				<li><a href="http://www.bsgroupti.ch/scrum-it/Scrum-it-Flyer.pdf">Flyer about Scrum-it</a></li>
-				<li><a href="http://www.bsgroupti.ch/scrum-it/Scrum-it-SwissITMagazineArtikel.pdf">magazine article</a></li>
-				<li><a href="http://sourceforge.net/projects/scrum-it/">SourceForge</a></li>
 			</ul>
-			<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2F%23%21%2Fpages%2FScrum-it%2F161740420538807&amp;width=200&amp;colorscheme=light&amp;show_faces=false&amp;stream=false&amp;header=false&amp;height=62" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:62px; background-color:rgb(240, 240, 240);padding-top:35px;" allowTransparency="true"></iframe>
 		</div>
 	</div>
 
 	<div class="mainfooter" data-role="footer">
-		<img height="30" src="<c:url value="/images/bsgroupti-logo.png" />" alt="<fmt:message key="scrum.bsgroupti"/>" />
+		Powered By: Tony Elmore
 	</div>
 </div>
 <script type="text/javascript">
@@ -136,12 +105,12 @@ function setDimensions() {
 	$('.content-welcome').css({height: ($(".left").outerHeight()+3)});
 }
 
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-try{
-var pageTracker = _gat._getTracker("UA-20612429-1");
-pageTracker._trackPageview();
-} catch(err) {}
+// var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+// document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+// try{
+// var pageTracker = _gat._getTracker("UA-20612429-1");
+// pageTracker._trackPageview();
+// } catch(err) {}
 </script>
 </body>
 </html>

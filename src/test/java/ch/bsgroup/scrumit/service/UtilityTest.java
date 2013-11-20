@@ -18,7 +18,7 @@ public class UtilityTest {
 	protected static IDatabaseConnection getConnection() throws ClassNotFoundException, SQLException {
 		Class.forName("com.mysql.jdbc.Driver");
 		try {
-			return new DatabaseConnection(DriverManager.getConnection("jdbc:mysql://localhost/scrumit2", "root", "bsgroup"));
+			return new DatabaseConnection(DriverManager.getConnection("jdbc:mysql://localhost/scrumit", "root", ""));
 		} catch (DatabaseUnitException e) {
 			e.printStackTrace();
 		}
@@ -27,7 +27,7 @@ public class UtilityTest {
 
 	protected static void databaseProperties() {
 		System.setProperty(PropertiesBasedJdbcDatabaseTester.DBUNIT_DRIVER_CLASS, "com.mysql.jdbc.Driver");
-		System.setProperty(PropertiesBasedJdbcDatabaseTester.DBUNIT_CONNECTION_URL, "jdbc:mysql://localhost/scrumit2");
+		System.setProperty(PropertiesBasedJdbcDatabaseTester.DBUNIT_CONNECTION_URL, "jdbc:mysql://localhost/scrumit");
 		System.setProperty(PropertiesBasedJdbcDatabaseTester.DBUNIT_USERNAME, "root");
 		System.setProperty(PropertiesBasedJdbcDatabaseTester.DBUNIT_PASSWORD, "");
 	}

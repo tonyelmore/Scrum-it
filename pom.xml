@@ -202,7 +202,7 @@
 				<artifactId>maven-war-plugin</artifactId>
 				<version>${maven.war.plugin.version}</version>
 				<configuration>
-					<warName>scrumit3</warName>
+					<warName>scrumit</warName>
 				</configuration>
 			</plugin>
 			<plugin>

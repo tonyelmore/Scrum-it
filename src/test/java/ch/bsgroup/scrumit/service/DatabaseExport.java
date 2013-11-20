@@ -21,7 +21,7 @@ public class DatabaseExport {
 		// database connection
 		@SuppressWarnings("unused")
 		Class driverClass = Class.forName("com.mysql.jdbc.Driver");
-		Connection jdbcConnection = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/scrumit2", "root", "bsgroup");
+		Connection jdbcConnection = (Connection) DriverManager.getConnection("jdbc:mysql://localhost/scrumit", "root", "");
 		IDatabaseConnection connection = new DatabaseConnection(jdbcConnection);
 
 		// partial database export
